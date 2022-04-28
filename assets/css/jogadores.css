@@ -1,0 +1,72 @@
+.jogadores{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #DC3128;
+}
+
+.jogadores__listagem ul{
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+  background-color: #a11c15;
+}
+
+.jogadores__listagem li{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.jogadores__listagem li:hover{
+  transform: scale(1.1);
+}
+
+.jogadores__card{
+  display: none;
+  gap: 60px;
+  margin: 70px 0 50px;
+}
+
+.jogadores__card.aberto{
+  display: flex;
+}
+
+.jogador{
+position: relative;
+display: flex;
+opacity: .7;
+transition: all .3s;
+cursor: pointer;
+}
+
+.jogador p{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  color: #1A2954;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 0 0 2px black;
+  display: none;
+  transition: all .3s;
+}
+
+.jogador:hover p{
+  display: block;
+}
+
+.jogador:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.posicao.jogador__ativo{
+  color: #1A2954;
+}

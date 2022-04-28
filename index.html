@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bahia</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho__menu" onclick="abrirMenu()">
+        <i class="fa fa-bars" data-abrir-menu></i>
+        <h2>Menu</h2>
+        <ul class="cabecalho__nav" id="cabecalho__nav">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Notícias</a></li>
+          <li><a href="#">Futebol Profissional</a></li>
+          <li><a href="#">Futebol de base</a></li>
+          <li><a href="#">Sócio esquadrão</a></li>
+        </ul>
+      </div>
+      <img src="./assets/img/logo_marca.png" alt="Escudo do Bahia" />
+      <div class="cabecalho__redes">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube-play"></i>
+        <h3>|</h3>
+        <i class="fa fa-search"></i>
+      </div>
+    </header>
+
+    <main>
+      <section class="noticias">
+        <div class="noticias__cards">
+          <div class="noticias__card">
+            <img src="./assets/img/noticia-bahia.jpeg" alt="jogo do Bahia" />
+            <div class="noticias__texto">
+              <span>22 ABR 2022</span>
+              <h4>Tudo igual</h4>
+              <p>
+                Bahia sai na frente, mas fica no empate com o CSA em Maceió.
+              </p>
+            </div>
+          </div>
+
+          <div class="noticias__card">
+            <img src="./assets/img/noticia-bahia.jpeg" alt="jogo do Bahia" />
+            <div class="noticias__texto">
+              <span>22 ABR 2022</span>
+              <h4>Tudo igual</h4>
+              <p>
+                Bahia sai na frente, mas fica no empate com o CSA em Maceió.
+              </p>
+            </div>
+          </div>
+
+          <div class="noticias__card">
+            <img src="./assets/img/noticia-bahia.jpeg" alt="jogo do Bahia" />
+            <div class="noticias__texto">
+              <span>22 ABR 2022</span>
+              <h4>Tudo igual</h4>
+              <p>
+                Bahia sai na frente, mas fica no empate com o CSA em Maceió.
+              </p>
+            </div>
+          </div>
+
+          <div class="noticias__card">
+            <img src="./assets/img/noticia-bahia.jpeg" alt="jogo do Bahia" />
+            <div class="noticias__texto">
+              <span>22 ABR 2022</span>
+              <h4>Tudo igual</h4>
+              <p>
+                Bahia sai na frente, mas fica no empate com o CSA em Maceió.
+              </p>
+            </div>
+          </div>
+
+          <div class="noticias__card">
+            <img src="./assets/img/noticia-bahia.jpeg" alt="jogo do Bahia" />
+            <div class="noticias__texto">
+              <span>22 ABR 2022</span>
+              <h4>Tudo igual</h4>
+              <p>
+                Bahia sai na frente, mas fica no empate com o CSA em Maceió.
+              </p>
+            </div>
+          </div>
+
+          <div class="noticias__card">
+            <img src="./assets/img/noticia-bahia.jpeg" alt="jogo do Bahia" />
+            <div class="noticias__texto">
+              <span>22 ABR 2022</span>
+              <h4>Tudo igual</h4>
+              <p>
+                Bahia sai na frente, mas fica no empate com o CSA em Maceió.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <i class="fa fa-plus noticias__rodape"> Notícias</i>
+      </section>
+
+      <section class="jogadores">
+        <nav class="jogadores__listagem">
+          <ul>
+            <li class="posicao jogador__ativo" id="goleiro">Goleiros</li>
+            <li class="posicao" id="lateral">Laterais</li>
+            <li class="posicao" id="zagueiro">Zagueiros</li>
+            <li class="posicao" id="meia">Meio-campistas</li>
+            <li class="posicao" id="atacante">Atacantes</li>
+          </ul>
+        </nav>
+
+        <div class="jogadores__cartoes">
+          <div class="jogadores__card aberto" id="cartao-goleiro">
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/goleiros/danilo_fernandez_2-215x230.png"
+                alt=""
+              />
+              <p>Danilo Fernandez</p>
+            </div>
+
+            <div class="jogador">
+              <img src="./assets/img/jogadores/goleiros/cesar.png" alt="" />
+              <p>Cesar</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/goleiros/denis_junior_2-215x230.png"
+                alt=""
+              />
+              <p>Denis Júnior</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/goleiros/mateus_claus_1-215x230.png"
+                alt=""
+              />
+              <p>Mateus Claus</p>
+            </div>
+          </div>
+
+          <div class="jogadores__card" id="cartao-lateral">
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/laterais/djalma_2-215x230.png"
+                alt=""
+              />
+              <p>Djalma</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/laterais/jhonatan_1-215x230.png"
+                alt=""
+              />
+              <p>Jhonatan</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/laterais/andre-215x230.png"
+                alt=""
+              />
+              <p>André</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/laterais/luiz_henrique_1-215x230.png"
+                alt=""
+              />
+              <p>Luiz Henrique</p>
+            </div>
+          </div>
+
+          <div class="jogadores__card" id="cartao-zagueiro">
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/zagueiros/ignacio_1-215x230.png"
+                alt=""
+              />
+              <p>Ignácio</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/zagueiros/gabriel_xavier_2-215x230.png"
+                alt=""
+              />
+              <p>Gabriel Xavier</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/zagueiros/henrique_-215x230.png"
+                alt=""
+              />
+              <p>Henrique</p>
+            </div>
+
+            <div class="jogador">
+              <img src="./assets/img/jogadores/zagueiros/didi.png" alt="" />
+              <p>Didi</p>
+            </div>
+          </div>
+
+          <div class="jogadores__card" id="cartao-meia">
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/meias/rezende_1-215x230.png"
+                alt=""
+              />
+              <p>Rezende</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/meias/miqueias_1-215x230.png"
+                alt=""
+              />
+              <p>Miqueias</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/meias/marco_antonio_2-215x230.png"
+                alt=""
+              />
+              <p>Marco Antônio</p>
+            </div>
+
+            <div class="jogador">
+              <img src="./assets/img/jogadores/meias/warley.png" alt="" />
+              <p>Warley</p>
+            </div>
+          </div>
+
+          <div class="jogadores__card" id="cartao-atacante">
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/atacantes/marcelo_ryan_1-215x230.png"
+                alt=""
+              />
+              <p>Marcelo Ryan</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/atacantes/jacare_1-215x230.png"
+                alt=""
+              />
+              <p>Vitor Jacaré</p>
+            </div>
+
+            <div class="jogador">
+              <img
+                src="./assets/img/jogadores/atacantes/matheus_davo.png"
+                alt=""
+              />
+              <p>Matheus Davó</p>
+            </div>
+
+            <div class="jogador">
+              <img src="./assets/img/jogadores/atacantes/rildo.png" alt="" />
+              <p>Rildo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__superior">
+        <img src="./assets/img/logo_marca.png" alt="Escudo do Bahia" />
+        <div class="footer__redes">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-youtube-play"></i>
+        </div>
+      </div>
+
+      <div class="footer_informacoes">
+        <i class="fa fa-map-marker"></i>
+          CENTRO DE TREINAMENTO EVARISTO DE MACEDO, Estrada Cidade Tricolor,
+          s/n, Camaçari-BA</i
+        >
+        <p>CNPJ: 15.193.923/0001-84</p>
+      </div>
+
+      <div class="footer__termos">
+        <a href="#">Termos de Uso</a>
+        <a href="#">Política de Privacidade</a>
+      </div>
+    </footer>
+
+    <script src="./assets/js/header-menu.js"></script>
+    <script src="./assets/js/jogadores.js"></script>
+  </body>
+</html>
