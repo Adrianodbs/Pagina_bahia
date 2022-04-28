@@ -80,3 +80,14 @@
   display: block;
 }
 
+@media screen and (max-width:900px){
+  .cabecalho{
+    padding: 20px;
+    position: relative;
+  }
+
+  .cabecalho img{
+    display: none;
+  }
+}
+

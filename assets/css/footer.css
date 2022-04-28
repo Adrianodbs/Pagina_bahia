@@ -66,3 +66,18 @@ footer{
   color: #9E9A42;
   font-weight: bold;
 }
+
+@media screen and (max-width:600px){
+  .footer__superior img{
+    position: static;
+    width: 150px;
+  }
+
+  .footer__redes{
+    position: static;
+  }
+
+  .footer_informacoes{
+    margin-top: 40px;
+  }
+}

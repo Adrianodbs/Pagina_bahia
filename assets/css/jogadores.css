@@ -70,3 +70,31 @@ cursor: pointer;
 .posicao.jogador__ativo{
   color: #1A2954;
 }
+
+@media screen and (max-width:1040px){
+  .jogador img{
+    width: 180px;
+  }
+}
+
+@media screen and (max-width:900px){
+  .jogador.hide{
+    display: none;
+  }
+
+  .jogadores__listagem li{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .jogadores__listagem ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .jogador img{
+    width: 140px;
+  }
+}
